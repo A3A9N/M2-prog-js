@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" defer src="app.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <canvas id="canvasId" width="1000" height="1000"></canvas>
+    <input id="myButton"  type="button" value="Click here!"></input>
+    <div id="div1">
+        <p id="p1">This is a paragraph.</p>
+        <p id="p2">This is another paragraph.</p>
+      </div>
+      <button id="btn1">Knop 1</button>
+ 
+<button id="btn2">Knop 2</button>
+ 
+<div id="clickDiv">
+  Klik op mij!
+</div>
+ 
+     
+      <script>
+      const para = document.createElement("p");
+      const node = document.createTextNode("This is new.");
+      para.appendChild(node);
+     
+      const element = document.getElementById("div1");
+      element.appendChild(para);
+      </script>
+</body>
+</html>
