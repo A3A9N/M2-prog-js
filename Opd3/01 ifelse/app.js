@@ -9,19 +9,16 @@ class App
  
         let random = Math.random();
         console.log(random);
-        if(random < 0,2)
+        if(random < 0.2)
         {
             title.style.backgroundColor = "#FF0000"
         }
  
-        else if(random > 0,75)
+        else if(random > 0.75)
         {
             title.style.backgroundColor = "blue"
         }
- 
-        else(random = 0,2-0,6-0,75)
-   
- 
+
     let newsitem1 = document.getElementsByClassName("gamenews")[0];
     let newsitem2 = document.getElementsByClassName("gamenews")[1];
  
